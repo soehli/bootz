@@ -233,7 +233,7 @@ function bootz_register_sidebars() {
 
 		'description' => __( 'The first (primary) sidebar.', 'bootztheme' ),
 
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="row widget %2$s">',
 
 		'after_widget' => '</div>',
 
@@ -269,7 +269,7 @@ function bootz_register_sidebars() {
 
 		'description' => __( 'The second (secondary) sidebar.', 'bootztheme' ),
 
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="row widget %2$s">',
 
 		'after_widget' => '</div>',
 
