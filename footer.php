@@ -4,9 +4,9 @@
 
 
 
-				<div "container">
-
-                   <div class="col-md-12">
+				<div class= "container">
+                                  <div class="row">   
+                                   <div class="col-md-12">
 
 					<nav role="navigation">
 
@@ -42,8 +42,8 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
-                   </div>
-
+                                  </div>
+                                  </div>
 				</div>
 
 
