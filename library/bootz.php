@@ -254,8 +254,8 @@ function bootz_scripts_and_styles() {
 
 		// enqueue styles and scripts
 
-		wp_enqueue_script( 'bootz-bootstrap' );
-		wp_enqueue_script( 'bootz-js' );
+	
+	
 
 		wp_enqueue_style( 'bootz-stylesheet' );
 
@@ -278,7 +278,7 @@ function bootz_scripts_and_styles() {
 		*/
 
 		wp_enqueue_script( 'jquery' );
-
+              	wp_enqueue_script( 'bootz-bootstrap' );
 		wp_enqueue_script( 'bootz-js' );
 
 
