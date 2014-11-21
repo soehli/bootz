@@ -218,9 +218,9 @@ function bootz_scripts_and_styles() {
 
 
 
-		// modernizr (without media query polyfill)
+		
 
-		wp_register_script( 'bootz-bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.js', array(), '3.2.0', false );
+	
 
 
 
@@ -247,7 +247,7 @@ function bootz_scripts_and_styles() {
 
 
 		//adding scripts file in the footer
-
+                	wp_register_script( 'bootz-bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array('jQuery'), '3.2.0', false );
 		wp_register_script( 'bootz-js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), '', true );
 
 
@@ -255,6 +255,7 @@ function bootz_scripts_and_styles() {
 		// enqueue styles and scripts
 
 		wp_enqueue_script( 'bootz-bootstrap' );
+		wp_enqueue_script( 'bootz-js' );
 
 		wp_enqueue_style( 'bootz-stylesheet' );
 
